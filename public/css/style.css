@@ -69,3 +69,10 @@ footer {
         font-size: 1rem;
     }
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Ograniczenie szerokości formularza */
+    margin: 0 auto; /* Wyśrodkowanie formularza */
+}
